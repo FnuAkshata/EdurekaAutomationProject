@@ -1,6 +1,6 @@
 # EdurekaAutomationProject
 
-This project contains end to end test fo edureka webpage with the bellow testcases and it is implementedd using Page Object Module
+This project contains end to end test of edureka webpage with the bellow testcases and it is implementedd using Page Object Module
 with th help of Selenium and TestNG frameworks.
 
 
