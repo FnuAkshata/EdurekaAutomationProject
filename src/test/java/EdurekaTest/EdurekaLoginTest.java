@@ -1,11 +1,12 @@
+package EdurekaTest;
+
 import Edureka.LoginPage;
 import Edureka.MyProfilePage;
 import Edureka.PersonalDetailsPage;
-import EdurekaTest.EdurekaBaseTest;
 
 import org.testng.annotations.Test;
 
-public class EdurekaLoginTest extends EdurekaBaseTest {
+public class EdurekaLoginTest extends EdurekaBrowserHome {
 
     @Test
     public void EdurekaLogin() {

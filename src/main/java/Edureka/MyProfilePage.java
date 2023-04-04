@@ -39,7 +39,6 @@ public class MyProfilePage extends BasePage {
     public PersonalDetailsPage personalDetails() {
 
         editIcon.click();
-        PersonalDetailsPage personalDetailsPage = new PersonalDetailsPage(driver);
-        return personalDetailsPage;
+        return new PersonalDetailsPage(driver);
     }
 }

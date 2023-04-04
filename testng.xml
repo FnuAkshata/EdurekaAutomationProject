@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Edureka Test Suite">
+    <listeners>
+        <listener class-name="EdurekaTest.EdurekaListener"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/akshata/EdurekaEndToEnd">
+        <classes>
+            <class name="EdurekaTest.EdurekaLoginTest"/>
+
+
+        </classes>
+    </test>
+</suite>

@@ -39,8 +39,7 @@ public class LoginPage extends BasePage {
         actions.click(password).build().perform();
         actions.sendKeys(password, "Ganapati6").build().perform();
         clickLoginButton();
-        MyProfilePage myProfilePage = new MyProfilePage(driver);
-        return myProfilePage;
+        return new MyProfilePage(driver);
 
 
     }
