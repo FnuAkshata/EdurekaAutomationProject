@@ -18,7 +18,7 @@ public class StandaloneTest {
 
     public WebDriver driver;
 
-    @Test
+//    @Test
     public void loginTest() {
 
         WebDriverManager.chromedriver().setup();

@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 public class PersonalDetailsPage extends BasePage {
 
@@ -48,8 +49,10 @@ public class PersonalDetailsPage extends BasePage {
         experience2_4.click();
         industry.click();
         industryType.click();
+        industry.click();
         designation.click();
         designation.sendKeys("Senior Engineer");
+        driver.findElement(By.cssSelector(".btn.btn-default.btn-lg.btn-save.btn_save.pull-right")).click();
 
 
     }
